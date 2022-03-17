@@ -1,0 +1,31 @@
+日々のGit学習における日報
+
+★使い方（思いついたら追加していく）
+◆日付を記載すること
+◆その日に学習した内容および感想を記載すること
+◆週ごとに目標を掲げること
+◆週ごとにブランチを切ること
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+3月18日（木曜日）
+
+｛今週の目標｝
+◆GitHubの環境構築を整える
+◆Gitの使い方（git add, commit, push, pull, checkout, merge）を学習し、実行する
+◆日々のGit学習における学習した内容や感想をgitStudyDiaryに記録する
+◆コンフリクトについて学習する（コンフリクトを起こして、修正する）
+
+
+｛本日に学習した内容｝
+◆Gitの環境構築を行った
+GitHubにて、レポジトリを追加し、ローカルのレポジトリをGitHubにpushした
+使用するコマンドは以下通り：
+git remote add origin https://github.com/Nicholastx96/gitStudyDiary.git
+git branch -M master 
+git push -u origin master
+
+◆Gitの基本基礎を学習した
+１．nano gitStudyDiaryにて、日々のGit学習した内容を記載する
+２．git add gitStudyDiaryにて、ステージングエリアに追加する
+３．git commit -m "3.18"にて、コミットする
+４．git pushにて、リモートレポジトリにプッシュする
